@@ -1,6 +1,6 @@
 {
   "name": "lolcolor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Turn anything into a color!",
   "author": "David Ragsdale",
   "license": "Apache-2.0",
@@ -10,6 +10,9 @@
   },
   "type": "commonjs",
   "main": "lib/index.js",
+  "bin": {
+    "lolcolor": "bin/lolcolor"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/djragsdale/lolcolor.git"
