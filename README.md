@@ -1,17 +1,52 @@
 # lolcolor
 Turn anything into a color!
 
+## Install
+
+If you are using `lolcolor` in javascript code, a simple install will add it to your dependencies.
+
+```bash
+npm install lolcolor
+```
+
+If this is getting bundled into front-end javascript, you might want to install into your devDependencies instead.
+
+```bash
+npm install -D lolcolor
+
+```
+
+If requiring easy use via command-line, install globally. 
+
+```bash
+npm install -g lolcolor
+```
+
+If not running often, consider using `npx` instead of a global install.
+
+```bash
+npx lolcolor "Hey now, you're an all star"
+```
+
 ## Usage
+
+### Command Line
+
+`lolcolor` can be used from the command line.
+
+```bash
+lolcolor "get your game on, go play"
+```
 
 ### Function
 
-The easiest way to use `lolcolor` is as a simple function.
+The simplest way to use `lolcolor` in code is as a simple function.
 
 ```javascript
 
 const lolcolor = require('lolcolor');
 
-const text = 'Lorem ipsum dolor sit amet';
+const text = 'Hey now, you\'re a rock star';
 
 console.log(lolcolor(text));
 
@@ -25,7 +60,7 @@ If you need a bit more control over your colors you can use the ColorBuilder.
 
 const { ColorBuilder } = require('lolcolor');
 
-const builderText = 'Lorem ipsum dolor sit amet';
+const builderText = 'get the show on, get paid';
 
 const colorBuilder = new ColorBuilder();
 
