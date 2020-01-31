@@ -74,6 +74,7 @@ console.log(`Red value:${colorR}, Green value:${colorG}, Blue value:${colorB}`);
 | ----------- | ---------------- | -------------- | ---------------------------------- |
 | Begin       | fromString       | source<string> | The input text                     |
 | Create      | create           | (none)         | Output your color                  |
+| Color mode  | asHex            | (none)         | Use hex color mode                 |
 | Color mode  | asHsl            | (none)         | Use HSL color mode                 |
 | Color mode  | asRgb            | (none)         | Use RGB color mode                 |
 | Color limit | butOnly8Colors   | (none)         | Only choose from 8 colors          |
